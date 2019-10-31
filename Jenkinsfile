@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''pwd
 ls
-gem install bundler
+sudo gem install bundler
 bundle install'''
       }
     }
